@@ -1,5 +1,5 @@
 " -------------------------------------------------------------------------------------------------
-" Basic config file create in 07/09/2024
+" Basic config file, create in 07/09/2024
 " Author: Valdigleis (Dk4LL)
 " Mail: dk4ll@proton.me
 " -------------------------------------------------------------------------------------------------
@@ -80,6 +80,9 @@ set hidden
 
 " Define method for the folds
 set foldmethod=indent
+
+" Define level fold to fold ever open in buffer start
+set foldlevelstart=99
 
 " Enable 24bits color support
 "set termguicolors
