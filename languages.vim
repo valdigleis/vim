@@ -1,12 +1,12 @@
 " -------------------------------------------------------------------------------------------------
-" Main config file create in 07/09/2024
+" Language config file create in 07/09/2024
 " Author: Valdigleis (Dk4LL)
 " Mail: dk4ll@proton.me
 " -------------------------------------------------------------------------------------------------
 
-" Load basic configs
-source ~/.config/vim/basic.vim
+" Define the LaTeX flavor
+let g:tex_flavor="tex"
 
-" Load languages configs
-source ~/.config/vim/languages.vim
+" Info for the LSP Ocaml
+" rtp^="~/.opam/default/share/ocp-indent/vim"
 
