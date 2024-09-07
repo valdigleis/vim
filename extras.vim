@@ -24,6 +24,9 @@ Plug 'ryanoasis/vim-devicons'
 " Lightline plugin to status bar
 Plug 'itchyny/lightline.vim'
 
+" buftabline to buffers bar
+Plug 'ap/vim-buftabline'
+
 " Nerdtree plugin to explore file
 Plug 'preservim/nerdtree'
 
