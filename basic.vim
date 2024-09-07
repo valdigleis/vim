@@ -71,8 +71,17 @@ set et
 " Define number space in tabulation
 set tabstop=2
 
+" Define size for the tabulation with commands: shift + >> and shift + <<
+set shiftwidth=2
+
+" Enable charge buffers without save
+set hidden
+
+" Define method for the folds
+set foldmethod=indent
+
 " Enable 24bits color support
-set termguicolors
+"set termguicolors
 
 
 
