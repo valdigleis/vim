@@ -84,6 +84,9 @@ set foldmethod=indent
 " Define level fold to fold ever open in buffer start
 set foldlevelstart=99
 
+" Disable show mode
+set noshowmode
+
 " Enable 24bits color support
 "set termguicolors
 
