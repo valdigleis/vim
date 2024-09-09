@@ -13,7 +13,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The plugin manager [Vim-plug](https://github.com/junegunn/vim-plug).
 
 >[!TIP]
-> For the best experience I recommend using the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator
+> For the best experience, is recommended use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
 >
 
 ## Plugins useds 📦
