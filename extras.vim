@@ -33,6 +33,9 @@ Plug 'preservim/nerdtree'
 " Extesion of Nerdtree plugin for adds syntax highlighting to NERDTree based on filetype
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
+" Coc plugin for manager language servers 
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
 
 
