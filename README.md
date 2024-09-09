@@ -36,7 +36,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 Here is the list with my personal keymaps. Remember that my leader is the **space** key.
 
 
-### Buffers keymaps (only normal mode)
+### Buffers keymaps (normal mode)
 ```vimscript
 "Save current buffer
 <leader>w
@@ -61,7 +61,7 @@ Here is the list with my personal keymaps. Remember that my leader is the **spac
 
 ```
 
-### NERDTree Plugin Keymaps
+### NERDTree Plugin Keymaps (normal mode)
 ```vimscript
 "Open NERDTree
 <leader>to
