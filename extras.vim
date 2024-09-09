@@ -30,6 +30,9 @@ Plug 'ap/vim-buftabline'
 " Nerdtree plugin to explore file
 Plug 'preservim/nerdtree'
 
+" Extesion of Nerdtree plugin for adds syntax highlighting to NERDTree based on filetype
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
 call plug#end()
 
 
@@ -76,7 +79,7 @@ endfunction
 " -------------------------------------------------------------------------------------------------
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'catppuccin_mocha',
+      \ 'colorscheme': 'icebergDark',
       \ 'separator': {'left': "", 'right': ''},
       \ 'active': {
       \     'left' : [ ['mode', 'paste'], ['readonly', 'filename'], ['gitbranch'] ],
@@ -109,7 +112,19 @@ let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
 let g:NERDTreeFileLines = 1
 
+" -------------------------------------------------------------------------------------------------
+" Nerdtree-syntax-highlight plugin config
+" -------------------------------------------------------------------------------------------------
+let g:WebDevIconsDisableDefaultFolderSymbolColorFromNERDTreeDir = 1
+let g:WebDevIconsDisableDefaultFileSymbolColorFromNERDTreeFile = 1
 
+let g:NERDTreeDisableFileExtensionHighlight = 1
+let g:NERDTreeDisableExactMatchHighlight = 1
+let g:NERDTreeDisablePatternMatchHighlight = 1
 
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
 
-
+let g:NERDTreeHighlightFolders = 1
+let g:NERDTreeHighlightFoldersFullName = 1

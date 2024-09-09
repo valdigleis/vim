@@ -12,3 +12,9 @@ source ~/.config/vim/languages.vim
 
 " Load extras configs
 source ~/.config/vim/extras.vim
+
+" Load keys configs
+source ~/.config/vim/keys.vim
+
+" Load basic configs
+source ~/.config/vim/commands.vim

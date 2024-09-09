@@ -13,12 +13,59 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The plugin manager [Vim-plug](https://github.com/junegunn/vim-plug).
 
 >[!TIP]
-> For the best experience, is recommended use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
+> For the best experience, use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
 >
 
 ## Plugins useds 📦
 
+1. The color theme use: [catppuccin](https://github.com/catppuccin/vim).
+2. The color theme in lightline use: [iceberg-dark](https://github.com/gkeep/iceberg-dark).
+3. Used to file explore: [NERDTree](https://github.com/preservim/nerdtree).
+4. The git wrapper is: [vim-fugitive](https://github.com/tpope/vim-fugitive).
+5. Used to adds file type icons: [vim-devicons](https://github.com/ryanoasis/vim-devicons).
+6. The status line is: [lightline.vim](https://github.com/itchyny/lightline.vim).
+7. The buffer tabs is: [vim-buftabline](https://github.com/ap/vim-buftabline).
+8. Used to adds highlight in NERDTree: [vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight).
+
 ## Personal keys ⌨️
+
+Here is the list with my personal keymaps (in normal mode). Remember that my leader is the **space** key.
+
+
+### Buffers keymaps
+```vimscript
+"Save current buffer
+<leader>w
+
+"Save all buffers
+<leader>wa
+
+"Quit Vim (need save buffers)
+<leader>q
+
+"Quit Vim (no save buffers)
+<leader>qa
+
+"Close (Delete) current buffer
+<leader><CR>
+
+"Charge to next buffer
+<Tab>
+
+"Charge to previuos buffer
+<S-Tab>
+
+```
+
+### NERDTree Plugin Keymaps
+```vimscript
+"Open NERDTree
+<leader>to
+
+"Close NERDTree
+<leader>tc
+```
+
 
 ## License
 

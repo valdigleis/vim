@@ -90,8 +90,8 @@ set noshowmode
 " Enable 24bits color support
 "set termguicolors
 
-
-
+" Define leader key
+let mapleader = "\<Space>"
 
 
 
