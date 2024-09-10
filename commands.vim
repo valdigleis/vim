@@ -5,7 +5,7 @@
 " -------------------------------------------------------------------------------------------------
 
 " Start NERDTree and and put the cursor back in the other window.
-autocmd VimEnter * NERDTree | wincmd p
+" autocmd VimEnter * NERDTree | wincmd p
 
 " Fix curso in local and call CocActionAsync
 autocmd CursorHold * silent call CocActionAsync('highlight')
