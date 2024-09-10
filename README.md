@@ -28,7 +28,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 6. The status line is: [lightline.vim](https://github.com/itchyny/lightline.vim).
 7. The buffer tabs is: [vim-buftabline](https://github.com/ap/vim-buftabline).
 8. Used to adds highlight in NERDTree: [vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight).
-9. Used to manager language servers: [coc.nvim](https://github.com/neoclide/coc.nvim).
+9. Warp used to connection with language servers: [coc.nvim](https://github.com/neoclide/coc.nvim).
 
 
 ## Personal keys ⌨️
