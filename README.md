@@ -44,6 +44,9 @@ Here is the list with my personal keymaps. Remember that my leader is the **spac
 "Save all buffers
 <leader>ww
 
+" Save & Quit
+<leader>wq
+
 "Quit Vim (need save buffers)
 <leader>q
 

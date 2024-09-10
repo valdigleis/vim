@@ -9,6 +9,7 @@
 " -------------------------------------------------------------------------------------------------
 nnoremap <silent> <leader>w :w<CR>
 nnoremap <silent> <leader>ww :wa<CR>
+nnoremap <silent> <leader>wq :wqall<CR>
 nnoremap <silent> <leader>q :q<CR>
 nnoremap <silent> <leader>qq :qall!<CR>
 nnoremap <silent> <leader><CR> :bd<CR>
