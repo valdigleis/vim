@@ -13,6 +13,8 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The [Vim](https://www.vim.org/) editor, obviously!
 - A [Nerd font](https://www.nerdfonts.com/), particularly recommend the font: [FiraMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraMono.zip).
 - The plugin manager [Vim-plug](https://github.com/junegunn/vim-plug).
+- The [clangd](https://clangd.llvm.org/).
+- The sofware collection [GHCup](https://www.haskell.org/ghcup/), please install the *HLS*.
 
 >[!TIP]
 > For the best experience, use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
