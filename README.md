@@ -17,6 +17,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The sofware collection [GHCup](https://www.haskell.org/ghcup/), please install the [HLS](https://github.com/haskell/haskell-language-server).
 - The ocaml package manager ([opam](https://opam.ocaml.org/)), please install the [ocaml-lsp](https://github.com/ocaml/ocaml-lsp).
 - The [TexLab](https://github.com/latex-lsp/texlab).
+- The [lua-language-server](https://github.com/LuaLS/lua-language-server).
 
 >[!TIP]
 > For the best experience, use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
@@ -33,6 +34,8 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 7. The buffer tabs is: [vim-buftabline](https://github.com/ap/vim-buftabline).
 8. Used to adds highlight in NERDTree: [vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight).
 9. Warp used to connection with language servers: [coc.nvim](https://github.com/neoclide/coc.nvim).
+
+## Coc Extesions ⚡
 
 
 ## Personal keys ⌨️

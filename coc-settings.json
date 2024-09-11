@@ -26,6 +26,11 @@
       "command": "texlab",
       "filetypes": ["tex", "bib", "plaintex", "context", "latex"]
     },
+    "lua": {
+      "command": "lua-language-server",
+      "args": ["-E"],
+      "filetypes": ["lua"]
+    },
     "ocaml-lsp": {
       "command": "opam",
       "args": ["config", "exec", "--", "ocamllsp"],
