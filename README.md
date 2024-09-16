@@ -37,6 +37,14 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 
 ## Coc Extesions ⚡
 
+I suggest the following list of Coc-extensions.
+
+- [coc-html](https://github.com/neoclide/coc-html) the HTML language server extesion.
+- [coc-css](https://github.com/neoclide/coc-css) the CSS language server extension.
+- [coc-pyright](https://github.com/fannheyward/coc-pyright) the Python language server extension.
+- [coc-java](https://github.com/neoclide/coc-java) the Java language server extension.
+- [coc-tsserver](https://github.com/neoclide/coc-tsserver) the Type(java)script language server extesion.
+
 
 ## Personal keys ⌨️
 
