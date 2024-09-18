@@ -143,19 +143,22 @@ K
 <leader>cca
 
 " Execute code action source
-nnoremap <leader>ccs  <Plug>(coc-codeaction-source)
+<leader>ccs
+
+" Execute code action selected
+<leader>ccS
 
 " Execute code action in cursor position
-nnoremap <leader>ccc  <Plug>(coc-codeaction-cursor)
+<leader>ccc
 
 " Show commands list
-<leader>ccC
+<leader>clc
 
 " Show list diagnostics
-<leader>ccd
+<leader>cld
 
 " Show coc list extensions
-<leader>cce
+<leader>cle
 
 " Show coc list outline
 <leader>clo

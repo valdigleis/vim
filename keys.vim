@@ -1,7 +1,6 @@
 " -------------------------------------------------------------------------------------------------
 " File to config my personal keymaps, create in 09/09/2024
-" Author: Valdigleis (Dk4LL)
-" Mail: dk4ll@proton.me
+" Author: Valdigleis (Dk4LL) - dk4ll@proton.me
 " -------------------------------------------------------------------------------------------------
 
 " -------------------------------------------------------------------------------------------------
@@ -79,12 +78,12 @@ nnoremap <leader>ccs  <Plug>(coc-codeaction-source)
 nnoremap <leader>ccS  <Plug>(coc-codeaction-selected)
 nnoremap <leader>ccc  <Plug>(coc-codeaction-cursor)
 
-nnoremap <silent><nowait> <leader>ccC  :<C-u>CocList commands<cr>
-nnoremap <silent><nowait> <leader>ccd  :<C-u>CocList diagnostics<cr>
-nnoremap <silent><nowait> <leader>cce  :<C-u>CocList extensions<cr>
-nnoremap <silent><nowait> <leader>cco  :<C-u>CocList outline<cr>
-nnoremap <silent><nowait> <leader>csl  :<C-u>CocList -I symbols<cr>
+nnoremap <silent><nowait> <leader>clc  :<C-u>CocList commands<cr>
+nnoremap <silent><nowait> <leader>cld  :<C-u>CocList diagnostics<cr>
+nnoremap <silent><nowait> <leader>cle  :<C-u>CocList extensions<cr>
+nnoremap <silent><nowait> <leader>clo  :<C-u>CocList outline<cr>
+nnoremap <silent><nowait> <leader>cls  :<C-u>CocList -I symbols<cr>
+nnoremap <silent><nowait> <leader>clr  :<C-u>CocListResume<CR>
 nnoremap <silent><nowait> <leader>cni  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <leader>cpi  :<C-u>CocPrev<CR>
-nnoremap <silent><nowait> <leader>clr  :<C-u>CocListResume<CR>
 
