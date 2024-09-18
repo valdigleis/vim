@@ -9,3 +9,4 @@
 
 " Fix curso in local and call CocActionAsync
 autocmd CursorHold * silent call CocActionAsync('highlight')
+

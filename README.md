@@ -18,6 +18,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The ocaml package manager ([opam](https://opam.ocaml.org/)), please install the [ocaml-lsp](https://github.com/ocaml/ocaml-lsp).
 - The [TexLab](https://github.com/latex-lsp/texlab).
 - The [lua-language-server](https://github.com/LuaLS/lua-language-server).
+- The [bash-language-server](https://github.com/bash-lsp/bash-language-server)
 
 >[!TIP]
 > For the best experience, use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
@@ -44,6 +45,7 @@ I suggest the following list of Coc-extensions.
 - [coc-pyright](https://github.com/fannheyward/coc-pyright) the Python language server extension.
 - [coc-java](https://github.com/neoclide/coc-java) the Java language server extension.
 - [coc-tsserver](https://github.com/neoclide/coc-tsserver) the Type(java)script language server extesion.
+- [coc-json](https://github.com/neoclide/coc-json) the json language server extesion.
 
 
 ## Personal keys ⌨️

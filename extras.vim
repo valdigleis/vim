@@ -13,7 +13,7 @@ call plug#begin()
 Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 
 " Iceberg-dark color theme to status bar
-Plug 'gkeep/iceberg-dark'
+"Plug 'gkeep/iceberg-dark'
 
 " Vim-fugitive to get infos git 
 Plug 'tpope/vim-fugitive'
@@ -82,7 +82,7 @@ endfunction
 " -------------------------------------------------------------------------------------------------
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'icebergDark',
+      \ 'colorscheme': 'catppuccin_mocha',
       \ 'separator': {'left': "", 'right': ''},
       \ 'active': {
       \     'left' : [ ['mode', 'paste'], ['readonly', 'filename'], ['gitbranch'] ],
@@ -131,3 +131,4 @@ let g:NERDTreePatternMatchHighlightFullName = 1
 
 let g:NERDTreeHighlightFolders = 1
 let g:NERDTreeHighlightFoldersFullName = 1
+
