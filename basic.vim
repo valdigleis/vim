@@ -7,6 +7,10 @@
 " Disable compatible mode with the original Vi
 set nocompatible
 
+" Disable bell alert
+set noerrorbells
+set vb t_vb=
+
 " Define input enconding
 set encoding=utf-8
 
@@ -88,7 +92,7 @@ set foldlevelstart=99
 set noshowmode
 
 " Enable 24bits color support
-"set termguicolors
+set termguicolors
 
 " Define leader key
 let mapleader = "\<Space>"

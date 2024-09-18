@@ -7,10 +7,8 @@
 " -------------------------------------------------------------------------------------------------
 " Basic actions keys
 " -------------------------------------------------------------------------------------------------
-nnoremap <silent> <leader>w :w<CR>
 nnoremap <silent> <leader>ww :wa<CR>
 nnoremap <silent> <leader>wq :wqall<CR>
-nnoremap <silent> <leader>q :q<CR>
 nnoremap <silent> <leader>qq :qall!<CR>
 nnoremap <silent> <leader><CR> :bd<CR>
 
@@ -57,15 +55,15 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
 
 inoremap <silent><expr> <c-@> coc#refresh()
 
-nnoremap <silent> <leader>cd[ <Plug>(coc-diagnostic-prev)
-nnoremap <silent> <leader>cd] <Plug>(coc-diagnostic-next)
-nnoremap <silent> <leader>cgd <Plug>(coc-definition)
-nnoremap <silent> <leader>cgt <Plug>(coc-type-definition)
-nnoremap <silent> <leader>cgi <Plug>(coc-implementation)
-nnoremap <silent> <leader>cgr <Plug>(coc-references)
-nnoremap <silent> <leader>ccr <Plug>(coc-codeaction-refactor)
+nnoremap <silent> <leader>d[ <Plug>(coc-diagnostic-prev)
+nnoremap <silent> <leader>d] <Plug>(coc-diagnostic-next)
+nnoremap <silent> <leader>gd <Plug>(coc-definition)
+nnoremap <silent> <leader>gt <Plug>(coc-type-definition)
+nnoremap <silent> <leader>gi <Plug>(coc-implementation)
+nnoremap <silent> <leader>gr <Plug>(coc-references)
 nnoremap <silent> K :call ShowDocumentation()<CR>
 
+nnoremap <silent> <leader>cr <Plug>(coc-codeaction-refactor)
 xnoremap <silent> <leader>crs  <Plug>(coc-codeaction-refactor-selected)
 nnoremap <silent> <leader>crs  <Plug>(coc-codeaction-refactor-selected)
 

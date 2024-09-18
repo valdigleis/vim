@@ -15,6 +15,9 @@ Plug 'catppuccin/vim', { 'as': 'catppuccin' }
 " Iceberg-dark color theme to status bar
 "Plug 'gkeep/iceberg-dark'
 
+" Vim-transparent plug to enable terminal transparence in Vim
+Plug 'tribela/vim-transparent'
+
 " Vim-fugitive to get infos git 
 Plug 'tpope/vim-fugitive'
 
@@ -30,14 +33,17 @@ Plug 'ap/vim-buftabline'
 " Nerdtree plugin to explore file
 Plug 'preservim/nerdtree'
 
-" Extesion of Nerdtree plugin for adds syntax highlighting to NERDTree based on filetype
+" Extesion of Nerdtree plugin to adds syntax highlighting to NERDTree based on filetype
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
-" Coc plugin for manager language servers 
+" Coc plugin to manager language servers 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Ale plugin for manager linters
+" Ale plugin to manager linters
 Plug 'dense-analysis/ale'
+
+" Vim-clpa plugin to tree-sitter supports
+" Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
 
 call plug#end()
 

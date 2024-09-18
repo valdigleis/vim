@@ -17,7 +17,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The ocaml package manager ([opam](https://opam.ocaml.org/)), please install the [ocaml-lsp](https://github.com/ocaml/ocaml-lsp).
 - The [TexLab](https://github.com/latex-lsp/texlab).
 - The [lua-language-server](https://github.com/LuaLS/lua-language-server).
-- The [bash-language-server](https://github.com/bash-lsp/bash-language-server)
+- The [bash-language-server](https://github.com/bash-lsp/bash-language-server).
 - The package manager [npm](https://www.npmjs.com), please install the [prettier](https://www.npmjs.com/package/prettier), and the [eslint](https://www.npmjs.com/package/eslint).
 
 
@@ -36,6 +36,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 7. The buffer tabs is: [vim-buftabline](https://github.com/ap/vim-buftabline).
 8. Used to adds highlight in NERDTree: [vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight).
 9. Warp used to connection with language servers: [coc.nvim](https://github.com/neoclide/coc.nvim).
+10. The Check syntax and fix files: [ale](https://github.com/dense-analysis/ale).
 
 ## Coc Extesions ⚡
 
@@ -56,17 +57,11 @@ Here is the list with my personal keymaps. Remember that my leader is the **spac
 
 ### Buffers keymaps (normal mode)
 ```vimscript
-"Save current buffer
-<leader>w
-
 "Save all buffers
 <leader>ww
 
 " Save & Quit
 <leader>wq
-
-"Quit Vim (need save buffers)
-<leader>q
 
 "Quit Vim (no save buffers)
 <leader>qq
@@ -112,22 +107,25 @@ K
 <leader>rn
 
 " Go to previous coc diagnostic
-<leader>c[
+<leader>d[
 
 " Go to next coc diagnostic
-<leader>c]
+<leader>d]
 
 " Go to definition
-<leader>cgd
+<leader>gd
 
 " Go to type definition 
-<leader>cgt
+<leader>gt
 
 " Go to implimentaion
-<leader>cgi
+<leader>gi
 
 " Go to references
-<leader>cgr
+<leader>gr
+
+" Execute code refactor
+<leader>cr
 
 " Execute (all) code refactor
 <leader>ccr
@@ -135,7 +133,7 @@ K
 " Execute (selected) code refactor 
 <leader>crs
 
-" Format (selected) code
+" Execute Format (selected) code
 <leader>cfs
 
 " Execute (selected) code action
