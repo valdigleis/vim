@@ -36,13 +36,16 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Coc plugin for manager language servers 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Ale plugin for manager linters
+Plug 'dense-analysis/ale'
+
 call plug#end()
 
 
 " -------------------------------------------------------------------------------------------------
 " Enable catppucin color theme using the options frappe (others: Mocha, Macchiato, and e Latte)
 " -------------------------------------------------------------------------------------------------
-colorscheme catppuccin_frappe
+colorscheme catppuccin_mocha
 
 
 " -------------------------------------------------------------------------------------------------
@@ -132,3 +135,11 @@ let g:NERDTreePatternMatchHighlightFullName = 1
 let g:NERDTreeHighlightFolders = 1
 let g:NERDTreeHighlightFoldersFullName = 1
 
+" -------------------------------------------------------------------------------------------------
+" Ale plugin config
+" -------------------------------------------------------------------------------------------------
+let g:ale_fixers = {
+  \ 'javascript': ['prettier', 'eslint']
+  \ }
+
+let g:ale_fix_on_save = 1

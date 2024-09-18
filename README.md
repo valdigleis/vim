@@ -1,7 +1,6 @@
 # Hello, humans 👋
 I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former programmer, ex-user and ex-collaborator of the [Debian](https://www.debian.org/) project. Currently, I'm a computer science teacher at [CCICOMP](https://portais.univasf.edu.br/ccicomp) of the [Univasf](https://www.univasf.edu.br) - Brazil. This repository contains my personal config used in the [Vim](https://www.vim.org/).
 
-
 ## Contact me 💬
 
 - dk4ll@proton.me (primary mail).
@@ -19,6 +18,8 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The [TexLab](https://github.com/latex-lsp/texlab).
 - The [lua-language-server](https://github.com/LuaLS/lua-language-server).
 - The [bash-language-server](https://github.com/bash-lsp/bash-language-server)
+- The package manager [npm](https://www.npmjs.com), please install the [prettier](https://www.npmjs.com/package/prettier), and the [eslint](https://www.npmjs.com/package/eslint).
+
 
 >[!TIP]
 > For the best experience, use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
