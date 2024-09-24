@@ -32,6 +32,12 @@ Plug 'ap/vim-buftabline'
 " Nerdtree plugin to explore file
 Plug 'preservim/nerdtree'
 
+" Fzf plugin to support the fuzzy finder
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+" Fzf.vim plugin to provides a variety of useful commands
+Plug 'junegunn/fzf.vim'
+
 " Extesion of Nerdtree plugin to adds syntax highlighting to NERDTree based on filetype
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
@@ -39,6 +45,18 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
+
+" -------------------------------------------------------------------------------------------------
+" Install coc-extensions
+" -------------------------------------------------------------------------------------------------
+let g:coc_global_extensions = [
+      \ 'coc-fzf-preview',
+      \ 'coc-html', 
+      \ 'coc-css', 
+      \ 'coc-java', 
+      \ 'coc-json', 
+      \ 'coc-pyright', 
+      \ 'coc-tsserver']
 
 
 " -------------------------------------------------------------------------------------------------

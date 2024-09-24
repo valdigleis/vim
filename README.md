@@ -20,6 +20,8 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The [bash-language-server](https://github.com/bash-lsp/bash-language-server).
 - The [rust-analyzer](https://github.com/rust-lang/rust-analyzer).
 - The package manager [npm](https://www.npmjs.com), please install the [prettier](https://www.npmjs.com/package/prettier), and the [eslint](https://www.npmjs.com/package/eslint).
+- The [fzf](https://github.com/junegunn/fzf) for fuzzy finder.
+- The [ripgrep](https://github.com/BurntSushi/ripgrep).
 
 >[!TIP]
 > For the best experience, use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
