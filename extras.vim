@@ -38,19 +38,13 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Coc plugin to manager language servers 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Ale plugin to manager linters
-Plug 'dense-analysis/ale'
-
-" Vim-clpa plugin to tree-sitter supports
-" Plug 'liuchengxu/vim-clap', { 'do': ':Clap install-binary' }
-
 call plug#end()
 
 
 " -------------------------------------------------------------------------------------------------
 " Enable catppucin color theme using the options frappe (others: Mocha, Macchiato, and e Latte)
 " -------------------------------------------------------------------------------------------------
-colorscheme catppuccin_mocha
+colorscheme catppuccin_frappe
 
 
 " -------------------------------------------------------------------------------------------------
@@ -90,7 +84,7 @@ endfunction
 " -------------------------------------------------------------------------------------------------
 set laststatus=2
 let g:lightline = {
-      \ 'colorscheme': 'catppuccin_mocha',
+      \ 'colorscheme': 'catppuccin_macchiato',
       \ 'separator': {'left': "", 'right': ''},
       \ 'active': {
       \     'left' : [ ['mode', 'paste'], ['readonly', 'filename'], ['gitbranch'] ],
@@ -114,6 +108,7 @@ let g:lightline = {
 let g:webdevicons_enable = 1
 let g:WebDevIconsNerdTreeAfterGlyphPadding = '  '
 
+
 " -------------------------------------------------------------------------------------------------
 " Nerdtree plugin config 
 " -------------------------------------------------------------------------------------------------
@@ -122,6 +117,7 @@ let g:WebDevIconsNerdTreeGitPluginForceVAlign = 1
 let g:NERDTreeDirArrowExpandable = ''
 let g:NERDTreeDirArrowCollapsible = ''
 let g:NERDTreeFileLines = 1
+
 
 " -------------------------------------------------------------------------------------------------
 " Nerdtree-syntax-highlight plugin config
@@ -140,11 +136,4 @@ let g:NERDTreePatternMatchHighlightFullName = 1
 let g:NERDTreeHighlightFolders = 1
 let g:NERDTreeHighlightFoldersFullName = 1
 
-" -------------------------------------------------------------------------------------------------
-" Ale plugin config
-" -------------------------------------------------------------------------------------------------
-let g:ale_fixers = {
-  \ 'javascript': ['prettier', 'eslint']
-  \ }
 
-let g:ale_fix_on_save = 1

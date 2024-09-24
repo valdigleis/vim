@@ -18,8 +18,8 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The [TexLab](https://github.com/latex-lsp/texlab).
 - The [lua-language-server](https://github.com/LuaLS/lua-language-server).
 - The [bash-language-server](https://github.com/bash-lsp/bash-language-server).
+- The [rust-analyzer](https://github.com/rust-lang/rust-analyzer).
 - The package manager [npm](https://www.npmjs.com), please install the [prettier](https://www.npmjs.com/package/prettier), and the [eslint](https://www.npmjs.com/package/eslint).
-
 
 >[!TIP]
 > For the best experience, use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
