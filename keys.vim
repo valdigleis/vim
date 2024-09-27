@@ -78,12 +78,74 @@ nnoremap <leader>ccs  <Plug>(coc-codeaction-source)
 nnoremap <leader>ccS  <Plug>(coc-codeaction-selected)
 nnoremap <leader>ccc  <Plug>(coc-codeaction-cursor)
 
-nnoremap <silent><nowait> <leader>clc  :<C-u>CocList commands<cr>
-nnoremap <silent><nowait> <leader>cld  :<C-u>CocList diagnostics<cr>
-nnoremap <silent><nowait> <leader>cle  :<C-u>CocList extensions<cr>
-nnoremap <silent><nowait> <leader>clo  :<C-u>CocList outline<cr>
-nnoremap <silent><nowait> <leader>cls  :<C-u>CocList -I symbols<cr>
+nnoremap <silent><nowait> <leader>clc  :<C-u>CocList commands<CR>
+nnoremap <silent><nowait> <leader>cld  :<C-u>CocList diagnostics<CR>
+nnoremap <silent><nowait> <leader>cle  :<C-u>CocList extensions<CR>
+nnoremap <silent><nowait> <leader>clo  :<C-u>CocList outline<CR>
+nnoremap <silent><nowait> <leader>cls  :<C-u>CocList -I symbols<CR>
 nnoremap <silent><nowait> <leader>clr  :<C-u>CocListResume<CR>
 nnoremap <silent><nowait> <leader>cni  :<C-u>CocNext<CR>
 nnoremap <silent><nowait> <leader>cpi  :<C-u>CocPrev<CR>
+
+
+" -------------------------------------------------------------------------------------------------
+" Coc-fzf plugins
+" -------------------------------------------------------------------------------------------------
+
+" Open finder menu to select file (no show hidde files)
+nnoremap <silent> ;f :CocCommand fzf-preview.ProjectFiles<CR>
+
+" Open finder menu to select mapping in git (no shwo hidde file)
+nnoremap <silent> ;g :CocCommand fzf-preview.GitFiles<CR>
+
+" Open finder menu to select file (show hidde files)
+nnoremap <silent> ;F :CocCommand fzf-preview.DirectoryFiles<CR>
+
+" Open selection buffer menu (no include current buffer)
+nnoremap <silent> ;B :CocCommand fzf-preview.Buffers<CR>
+
+" Open selection all buffers menu (include current buffer)
+nnoremap <silent> ;b :CocCommand fzf-preview.AllBuffers<CR>
+
+" Open selection menu to file recently useds
+nnoremap <silent> ;r :CocCommand fzf-preview.ProjectMruFiles<CR>
+
+" Open selection menu to recently saves
+nnoremap <silent> ;s :CocCommand fzf-preview.ProjectMrwFiles<CR>
+
+" Open selection menu to quick fix
+nnoremap <silent> ;q :CocCommand fzf-preview.QuickFix<CR>
+
+" Open selection menu to jumps points in current buffer
+nnoremap <silent> ;j :CocCommand fzf-preview.Jumps<CR>
+
+" Open selection menu to changes in current buffer
+nnoremap <silent> ;c :CocCommand fzf-preview.Changes<CR>
+
+" Open git actions menu
+nnoremap <silent> ;g :CocCommand fzf-preview.GitActions<CR>
+
+" Open git status 
+nnoremap <silent> ;G :CocCommand fzf-preview.GitStatus<CR>
+
+" Open Coc references list
+nnoremap <silent> ;R :CocCommand fzf-preview.CocReferences<CR>
+
+" Open Coc diagnostics list
+nnoremap <silent> ;d :CocCommand fzf-preview.CocDiagnostics<CR>
+
+" Open Coc definitions list
+nnoremap <silent> ;D :CocCommand fzf-preview.CocDefinition<CR>
+
+" Open Coc type definitions list
+nnoremap <silent> ;t :CocCommand fzf-preview.CocTypeDefinition<CR>
+
+" Open Coc implementation list
+nnoremap <silent> ;i :CocCommand fzf-preview.CocImplementations<CR>
+
+" Open Coc outline list
+nnoremap <silent> ;o :CocCommand fzf-preview.CocOutline<CR> 
+
+
+
 

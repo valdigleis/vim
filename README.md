@@ -38,7 +38,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 7. The buffer tabs is: [vim-buftabline](https://github.com/ap/vim-buftabline).
 8. Used to adds highlight in NERDTree: [vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight).
 9. Warp used to connection with language servers: [coc.nvim](https://github.com/neoclide/coc.nvim).
-10. The Check syntax and fix files: [ale](https://github.com/dense-analysis/ale).
+10. Warp used to connection with fzf: [fzf.vim](https://github.com/junegunn/fzf.vim).
 
 ## Coc Extesions ⚡
 
@@ -50,6 +50,7 @@ I suggest the following list of Coc-extensions.
 - [coc-java](https://github.com/neoclide/coc-java) the Java language server extension.
 - [coc-tsserver](https://github.com/neoclide/coc-tsserver) the Type(java)script language server extesion.
 - [coc-json](https://github.com/neoclide/coc-json) the json language server extesion.
+- [coc-fzf-preview ](https://github.com/yuki-yano/fzf-preview.vim) the that powerfully integrates fzf on Vim.
 
 
 ## Personal keys ⌨️
