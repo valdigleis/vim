@@ -13,7 +13,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - A [Nerd font](https://www.nerdfonts.com/), particularly recommend the font: [FiraMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraMono.zip).
 - The plugin manager [Vim-plug](https://github.com/junegunn/vim-plug).
 - The [clangd](https://clangd.llvm.org/).
-- The sofware collection [GHCup](https://www.haskell.org/ghcup/), please install the [HLS](https://github.com/haskell/haskell-language-server), [ormulu](https://hackage.haskell.org/package/ormolu), [stan](https://hackage.haskell.org/package/stan), and [hoogle](https://hackage.haskell.org/package/hoogle).
+- The sofware collection [GHCup](https://www.haskell.org/ghcup/), please install: [cabal](https://www.haskell.org/cabal/), [stack](https://docs.haskellstack.org/en/stable/),  and [HLS](https://github.com/haskell/haskell-language-server). 
 - The ocaml package manager ([opam](https://opam.ocaml.org/)), please install the [ocaml-lsp](https://github.com/ocaml/ocaml-lsp).
 - The [TexLab](https://github.com/latex-lsp/texlab).
 - The [lua-language-server](https://github.com/LuaLS/lua-language-server).
@@ -22,6 +22,8 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The package manager [npm](https://www.npmjs.com), please install the [prettier](https://www.npmjs.com/package/prettier), and the [eslint](https://www.npmjs.com/package/eslint).
 - The [fzf](https://github.com/junegunn/fzf) for fuzzy finder.
 - The [ripgrep](https://github.com/BurntSushi/ripgrep).
+- The hackages: [ormulu](https://hackage.haskell.org/package/ormolu), [stan](https://hackage.haskell.org/package/stan), and [hoogle](https://hackage.haskell.org/package/hoogle).
+
 
 >[!TIP]
 > For the best experience, use the [Kitty](https://sw.kovidgoyal.net/kitty/) terminal emulator.
