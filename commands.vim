@@ -9,3 +9,9 @@
 " Fix curso in local and call CocActionAsync
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
+" Enable (Emmet-vim) just for html/css
+autocmd FileType html,css EmmetInstall
+
+
+
+

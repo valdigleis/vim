@@ -44,6 +44,10 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Coc plugin to manager language servers 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Emmet-vim to add emmet functions
+Plug 'mattn/emmet-vim'
+
+
 call plug#end()
 
 " -------------------------------------------------------------------------------------------------
@@ -153,4 +157,14 @@ let g:NERDTreePatternMatchHighlightFullName = 1
 
 let g:NERDTreeHighlightFolders = 1
 let g:NERDTreeHighlightFoldersFullName = 1
+
+
+" -------------------------------------------------------------------------------------------------
+" Emmet-vim plugin config
+" -------------------------------------------------------------------------------------------------
+let g:user_emmet_mode ='inv'
+let g:user_emmet_install_global = 0
+
+
+
 
