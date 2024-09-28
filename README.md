@@ -31,7 +31,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 
 ## Plugins useds 📦
 
-1. The color theme use: [catppuccin](https://github.com/catppuccin/vim).
+1. The color theme used: [catppuccin](https://github.com/catppuccin/vim).
 2. The color theme in lightline use: [iceberg-dark](https://github.com/gkeep/iceberg-dark).
 3. Used to file explore: [NERDTree](https://github.com/preservim/nerdtree).
 4. The git wrapper is: [vim-fugitive](https://github.com/tpope/vim-fugitive).
@@ -41,6 +41,8 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 8. Used to adds highlight in NERDTree: [vim-nerdtree-syntax-highlight](https://github.com/tiagofumo/vim-nerdtree-syntax-highlight).
 9. Warp used to connection with language servers: [coc.nvim](https://github.com/neoclide/coc.nvim).
 10. Warp used to connection with fzf: [fzf.vim](https://github.com/junegunn/fzf.vim).
+11. The plugin emmet used: [emmet-vim](https://github.com/mattn/emmet-vim).
+12. The plugin to add support the query hoogle:[vim-hoogle](https://github.com/Twinside/vim-hoogle).
 
 ## Coc Extesions ⚡
 

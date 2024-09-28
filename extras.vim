@@ -44,8 +44,11 @@ Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 " Coc plugin to manager language servers 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Emmet-vim to add emmet functions
+" Emmet-vim plugin to add emmet functions
 Plug 'mattn/emmet-vim'
+
+" Vim-hoogle plugin to add query hoogle in Vim editor
+Plug 'twinside/vim-hoogle'
 
 
 call plug#end()
