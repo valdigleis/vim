@@ -95,7 +95,7 @@ nnoremap <silent><nowait> <leader>cpi  :<C-u>CocPrev<CR>
 " Open finder menu to select file (no show hidde files)
 nnoremap <silent> ;f :CocCommand fzf-preview.ProjectFiles<CR>
 
-" Open finder menu to select mapping in git (no shwo hidde file)
+" Open finder menu to select mapping in git (no show hidde file)
 nnoremap <silent> ;g :CocCommand fzf-preview.GitFiles<CR>
 
 " Open finder menu to select file (show hidde files)

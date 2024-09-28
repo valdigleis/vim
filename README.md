@@ -178,6 +178,63 @@ K
 " Coc list resume
 <leader>clr
 ```
+### Coc-fzf  Keymaps (Normal mode)
+```vimscript
+" Open finder menu to select file in current directory (no show hidde files)
+;f
+
+" Open finder menu to select mapping in git (no show hidde file)
+;g
+
+" Open finder menu to select file (show hidde files)
+;F
+
+" Open selection buffer menu (no include current buffer)
+;B
+
+" Open selection all buffers menu (include current buffer)
+;b
+
+" Open selection menu to file recently useds
+;r
+
+" Open selection menu to recently saves
+;s
+
+" Open selection menu to quick fix
+;q
+
+" Open selection menu to jumps points in current buffer
+;j
+
+" Open selection menu to changes in current buffer
+;c
+
+" Open git actions menu
+;g
+
+" Open git status 
+;G
+
+" Open Coc references list
+;R
+
+" Open Coc diagnostics list
+;d
+
+" Open Coc definitions list
+;D
+
+" Open Coc type definitions list
+;t
+
+" Open Coc implementation list
+;i
+
+" Open Coc outline list
+;o
+
+``` 
 
 ## License
 
