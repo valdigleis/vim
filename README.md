@@ -55,6 +55,7 @@ I suggest the following list of Coc-extensions.
 - [coc-tsserver](https://github.com/neoclide/coc-tsserver) the Type(java)script language server extesion.
 - [coc-json](https://github.com/neoclide/coc-json) the json language server extesion.
 - [coc-fzf-preview ](https://github.com/yuki-yano/fzf-preview.vim) the that powerfully integrates fzf on Vim.
+- [coc-volar](https://github.com/yaegassy/coc-volar) the fast Vue language support.
 
 
 ## Personal keys ⌨️
