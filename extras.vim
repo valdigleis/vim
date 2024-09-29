@@ -50,6 +50,8 @@ Plug 'mattn/emmet-vim'
 " Vim-hoogle plugin to add query hoogle in Vim editor
 Plug 'twinside/vim-hoogle'
 
+" Vim-live-server plugin to add live web server
+Plug 'wolandark/vim-live-server'
 
 call plug#end()
 
@@ -167,7 +169,6 @@ let g:NERDTreeHighlightFoldersFullName = 1
 " -------------------------------------------------------------------------------------------------
 let g:user_emmet_mode ='inv'
 let g:user_emmet_install_global = 0
-
 
 
 
