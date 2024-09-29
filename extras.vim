@@ -66,7 +66,7 @@ let g:coc_global_extensions = [
       \ 'coc-json', 
       \ 'coc-pyright', 
       \ 'coc-tsserver',
-      \ 'coc-volar']
+      \ '@yaegassy/coc-volar']
 
 
 " -------------------------------------------------------------------------------------------------
