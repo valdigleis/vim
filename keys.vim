@@ -91,9 +91,9 @@ nnoremap <silent><nowait> <leader>cpi  :<C-u>CocPrev<CR>
 " -------------------------------------------------------------------------------------------------
 " Coc-fzf plugin
 " -------------------------------------------------------------------------------------------------
-nnoremap <silent> ;f :CocCommand fzf-preview.ProjectFiles<CR>
-nnoremap <silent> ;g :CocCommand fzf-preview.GitFiles<CR>
-nnoremap <silent> ;F :CocCommand fzf-preview.DirectoryFiles<CR>
+nnoremap <silent> ;F :CocCommand fzf-preview.ProjectFiles<CR>
+nnoremap <silent> ;h :CocCommand fzf-preview.GitFiles<CR>
+nnoremap <silent> ;f :CocCommand fzf-preview.DirectoryFiles<CR>
 nnoremap <silent> ;B :CocCommand fzf-preview.Buffers<CR>
 nnoremap <silent> ;b :CocCommand fzf-preview.AllBuffers<CR>
 nnoremap <silent> ;r :CocCommand fzf-preview.ProjectMruFiles<CR>

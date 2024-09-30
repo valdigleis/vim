@@ -186,13 +186,13 @@ K
 ### Coc-fzf  Keymaps (Normal mode)
 ```vimscript
 " Open finder menu to select file in current directory (no show hidde files)
-;f
+;F
 
-" Open finder menu to select mapping in git (no show hidde file)
-;g
+" Open finder menu to files mapping by git
+;h
 
 " Open finder menu to select file (show hidde files)
-;F
+;f
 
 " Open selection buffer menu (no include current buffer)
 ;B
