@@ -12,6 +12,9 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 " Enable (Emmet-vim) just for html/css
 autocmd FileType html,css EmmetInstall
 
-
-
+" Enable Rainbow_parentheses 
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 

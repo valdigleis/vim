@@ -1,20 +1,47 @@
 {
   "languageserver": {
-    "bash":{
+    "bash": {
       "command": "bash-language-server",
-      "args": ["start"],
-      "filetypes": ["sh"]
-    }, 
+      "args": [
+        "start"
+      ],
+      "filetypes": [
+        "sh"
+      ]
+    },
     "clangd": {
       "command": "clangd",
-      "rootPatterns": ["compile_flags.txt", "compile_commands.json"],
-      "filetypes": ["c", "cc", "cpp", "c++", "objc", "objcpp", "h", "hpp"]
+      "rootPatterns": [
+        "compile_flags.txt",
+        "compile_commands.json"
+      ],
+      "filetypes": [
+        "c",
+        "cc",
+        "cpp",
+        "c++",
+        "objc",
+        "objcpp",
+        "h",
+        "hpp"
+      ]
     },
     "haskell": {
       "command": "haskell-language-server-wrapper",
-      "args": ["--lsp"],
-      "rootPatterns": ["*.cabal", "stack.yaml", "cabal.project", "package.yaml", "hie.yaml"],
-      "filetypes": ["haskell", "lhaskell"],
+      "args": [
+        "--lsp"
+      ],
+      "rootPatterns": [
+        "*.cabal",
+        "stack.yaml",
+        "cabal.project",
+        "package.yaml",
+        "hie.yaml"
+      ],
+      "filetypes": [
+        "haskell",
+        "lhaskell"
+      ],
       "settings": {
         "haskell": {
           "checkParents": "CheckOnSave",
@@ -22,29 +49,56 @@
           "maxCompletions": 40,
           "formattingProvider": "ormolu",
           "plugin": {
-            "stan": { "globalOn": true }
+            "stan": {
+              "globalOn": true
+            }
           }
         }
       }
     },
     "latex": {
       "command": "texlab",
-      "filetypes": ["tex", "bib", "plaintex", "context", "latex"]
+      "filetypes": [
+        "tex",
+        "bib",
+        "plaintex",
+        "context",
+        "latex"
+      ]
     },
     "lua": {
       "command": "lua-language-server",
-      "args": ["-E"],
-      "filetypes": ["lua"]
+      "args": [
+        "-E"
+      ],
+      "filetypes": [
+        "lua"
+      ]
     },
     "ocaml-lsp": {
       "command": "opam",
-      "args": ["config", "exec", "--", "ocamllsp"],
-      "filetypes": ["ocaml", "reason"]
+      "args": [
+        "config",
+        "exec",
+        "--",
+        "ocamllsp"
+      ],
+      "filetypes": [
+        "ocaml",
+        "reason"
+      ],
+      "settings": {
+        "formattingProvider": "ocamlformat"
+      }
     },
-    "rust":{
+    "rust": {
       "command": "rust-analyzer",
-      "filetypes": ["rust"],
-      "rootPatterns": ["Cargo.toml"]
+      "filetypes": [
+        "rust"
+      ],
+      "rootPatterns": [
+        "Cargo.toml"
+      ]
     }
   },
   "suggest.completionItemKindLabels": {
@@ -75,15 +129,19 @@
     "default": ""
   },
   "suggest.floatConfig": {
-    "border": true
+    "border": true,
+    "rounded": true,
   },
   "diagnostic.floatConfig": {
-    "border": true
+    "border": true,
+    "rounded": true
   },
   "signature.floatConfig": {
-    "border": true
+    "border": true,
+    "rounded": true
   },
   "hover.floatConfig": {
-    "border": true
+    "border": true,
+    "rounded": true
   }
 }
