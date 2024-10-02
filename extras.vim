@@ -56,6 +56,9 @@ Plug 'wolandark/vim-live-server'
 " Rainbow_parentheses plugin to add rainbow coloration in parentheses and braces
 Plug 'kien/rainbow_parentheses.vim'
 
+" Vim-polyglot plugin to add best syntax highlighting
+Plug 'sheerun/vim-polyglot'
+
 call plug#end()
 
 " -------------------------------------------------------------------------------------------------
