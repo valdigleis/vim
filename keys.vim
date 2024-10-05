@@ -118,6 +118,11 @@ nnoremap <silent> <leader>ls :StartLiveServer<CR>
 nnoremap <silent> <leader>lk :KillLiveServer<CR>
 
 
+" -------------------------------------------------------------------------------------------------
+" Vim-hoogle
+" -------------------------------------------------------------------------------------------------
+nnoremap <silent> <leader>ho :HoogleInfo<CR>
+nnoremap <silent> <leader>hc :HoogleClose<CR>
 
 
 

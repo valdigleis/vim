@@ -12,6 +12,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 - The [Vim](https://www.vim.org/) editor, obviously!
 - A [Nerd font](https://www.nerdfonts.com/), particularly recommend the font: [FiraMono Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v3.2.1/FiraMono.zip).
 - The plugin manager [Vim-plug](https://github.com/junegunn/vim-plug).
+- The package manager [npm](www.npmjs.com)... And the packages: [live-server](https://www.npmjs.com/package/live-server).
 - The [clangd](https://clangd.llvm.org/).
 - The sofware collection [GHCup](https://www.haskell.org/ghcup/), please install: [cabal](https://www.haskell.org/cabal/), [stack](https://docs.haskellstack.org/en/stable/),  and [HLS](https://github.com/haskell/haskell-language-server). 
 - The ocaml package manager ([opam](https://opam.ocaml.org/)), please install the [ocaml-lsp](https://github.com/ocaml/ocaml-lsp).
@@ -43,6 +44,9 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 10. Warp used to connection with fzf: [fzf.vim](https://github.com/junegunn/fzf.vim).
 11. The plugin emmet used: [emmet-vim](https://github.com/mattn/emmet-vim).
 12. The plugin to add support the query hoogle:[vim-hoogle](https://github.com/Twinside/vim-hoogle).
+13. Warp used to connection with live-server: [vim-live-server](https://github.com/wolandark/vim-live-server).
+14. Used to highlight delimeters: [rainbow_parentheses](https://github.com/kien/rainbow_parentheses.vim).
+15. Used to best highlight codes: [vim-polyglot](https://github.com/sheerun/vim-polyglot).
 
 ## Coc Extesions ⚡
 
@@ -238,9 +242,24 @@ K
 " Open Coc outline list
 ;o
 
-``` 
+```
+### Vim-live-server  Keymaps (Normal mode)
+```vimscript
+" Start live server
+<leader>ls
 
-## License
+" Kill live server
+<leader>lk
+```
+### Vim-hoogle
+```vimscript
+" Open Hoogle for symbol in cursor
+<leader>ho
+
+" Close hoogle
+<leader>hc
+```
+
 
 MIT License
 
