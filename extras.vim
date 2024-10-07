@@ -59,6 +59,9 @@ Plug 'kien/rainbow_parentheses.vim'
 " Vim-polyglot plugin to add best syntax highlighting
 Plug 'sheerun/vim-polyglot'
 
+" Vim-css-color plugin to add color
+Plug 'ap/vim-css-color'
+
 call plug#end()
 
 " -------------------------------------------------------------------------------------------------

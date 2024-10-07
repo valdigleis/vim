@@ -47,6 +47,7 @@ I'm Valdigleis (Dk4LL), a [Flamengo](https://www.flamengo.com.br) fan, former pr
 13. Warp used to connection with live-server: [vim-live-server](https://github.com/wolandark/vim-live-server).
 14. Used to highlight delimeters: [rainbow_parentheses](https://github.com/kien/rainbow_parentheses.vim).
 15. Used to best highlight codes: [vim-polyglot](https://github.com/sheerun/vim-polyglot).
+16. Used to show color in propety on CSS files: [vim-css-color](https://github.com/ap/vim-css-color). 
 
 ## Coc Extesions ⚡
 
