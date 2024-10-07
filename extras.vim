@@ -60,7 +60,8 @@ Plug 'kien/rainbow_parentheses.vim'
 Plug 'sheerun/vim-polyglot'
 
 " Vim-css-color plugin to add color
-Plug 'ap/vim-css-color'
+Plug 'gko/vim-coloresque'
+"Plug 'ap/vim-css-color'
 
 call plug#end()
 
