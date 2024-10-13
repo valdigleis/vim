@@ -143,5 +143,6 @@
   "hover.floatConfig": {
     "border": true,
     "rounded": true
-  }
+  },
+  "coc.preferences.formatOnSave": true,
 }
