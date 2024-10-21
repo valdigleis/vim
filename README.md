@@ -137,55 +137,55 @@ K
 <leader>gr
 
 " Execute code refactor
-<leader>cr
+<leader>Cr
 
 " Execute (all) code refactor
-<leader>ccr
+<leader>Ccr
 
 " Execute (selected) code refactor 
-<leader>crs
+<leader>Crs
 
 " Execute Format (selected) code
-<leader>cfs
+<leader>Cfs
 
 " Execute (selected) code action
-<leader>cas
+<leader>Cas
 
 " Execute codelens action
-<leader>cca
+<leader>Cca
 
 " Execute code action source
-<leader>ccs
+<leader>Ccs
 
 " Execute code action selected
-<leader>ccS
+<leader>CcS
 
 " Execute code action in cursor position
-<leader>ccc
+<leader>Ccc
 
 " Show commands list
-<leader>clc
+<leader>Clc
 
 " Show list diagnostics
-<leader>cld
+<leader>Cld
 
 " Show coc list extensions
-<leader>cle
+<leader>Cle
 
 " Show coc list outline
-<leader>clo
+<leader>Clo
 
 " Show coc list symbols
-<leader>cls
+<leader>Cls
 
 " Coc next item
-<leader>cni
+<leader>Cni
 
 " Coc previous item
-<leader>cpi
+<leader>Cpi
 
 " Coc list resume
-<leader>clr
+<leader>Clr
 ```
 ### Coc-fzf  Keymaps (Normal mode)
 ```vimscript

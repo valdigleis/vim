@@ -54,6 +54,9 @@ inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm()
 
 inoremap <silent><expr> <c-@> coc#refresh()
 
+nnoremap <silent> <leader>qf  <Plug>(coc-fix-current)
+nnoremap <silent> <leader>rn <Plug>(coc-rename)
+
 nnoremap <silent> <leader>d[ <Plug>(coc-diagnostic-prev)
 nnoremap <silent> <leader>d] <Plug>(coc-diagnostic-next)
 nnoremap <silent> <leader>gd <Plug>(coc-definition)
@@ -65,9 +68,6 @@ nnoremap <silent> K :call ShowDocumentation()<CR>
 nnoremap <silent> <leader>cr <Plug>(coc-codeaction-refactor)
 xnoremap <silent> <leader>crs  <Plug>(coc-codeaction-refactor-selected)
 nnoremap <silent> <leader>crs  <Plug>(coc-codeaction-refactor-selected)
-
-nnoremap <leader>qf  <Plug>(coc-fix-current)
-nnoremap <leader>rn <Plug>(coc-rename)
 
 xnoremap <leader>cfs  <Plug>(coc-format-selected)
 xnoremap <leader>cas  <Plug>(coc-codeaction-selected)
@@ -123,6 +123,12 @@ nnoremap <silent> <leader>lk :KillLiveServer<CR>
 " -------------------------------------------------------------------------------------------------
 nnoremap <silent> <leader>ho :HoogleInfo<CR>
 nnoremap <silent> <leader>hc :HoogleClose<CR>
+
+
+
+
+
+
 
 
 
