@@ -4,15 +4,17 @@
 " Date: 25/04/2025
 " --------------------------------------------------------------------
 
+let myDir = fnamemodify($MYVIMRC, ":p:h")
+
 " Load basic configs
-source ./basic.vim
+execute 'source' myDir . '/basic.vim'
 
 " Load languages configs
-source ./languages.vim
+execute 'source' myDir . '/languages.vim'
 
 " Load extras config
-source ./extras.vim
-source ./configs.vim
+execute 'source' myDir . '/extras.vim'
+execute 'source' myDir . '/configs.vim'
 
 " Load keymaps config
 
