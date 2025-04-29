@@ -1,8 +1,8 @@
-" ---------------------------------------------------------------------------------------
+" =================================================================================================
 " Basic configs
 " Author: Valdigleis (valdigleis@gmail.com)
 " Date: 25/04/2025
-" ---------------------------------------------------------------------------------------
+" =================================================================================================
 
 " No compatible with original Vi
 set nocompatible
@@ -99,3 +99,6 @@ let &t_SI = "\e[5 q"
 
 " Cursor in normal/visual mode
 let &t_EI = "\e[2 q"
+
+" Default options to FZF
+let $FZF_DEFAULT_OPTS="--style full --preview 'fzf-preview.sh {}' --bind 'focus:transform-header:file --brief {}' --layout=reverse --info=inline --height=100%"

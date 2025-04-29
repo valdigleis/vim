@@ -12,3 +12,7 @@ Install on your system...
 ## Dependencies (Softwares) 📦
 
 - The version control system [Git](https://git-scm.com/downloads).
+- The manager [vim-plug](https://github.com/junegunn/vim-plug) manager.
+- The software [bat](https://github.com/sharkdp/bat).
+- The command-line fuzzy finder [fzf](https://github.com/junegunn/fzf).
+- The command-line for recursive searches directories [ripgrep](https://github.com/BurntSushi/ripgrep).
