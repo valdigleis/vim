@@ -26,6 +26,6 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 " Plugin for LSP
-
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
