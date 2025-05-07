@@ -16,3 +16,4 @@ Install on your system...
 - The software [bat](https://github.com/sharkdp/bat).
 - The command-line fuzzy finder [fzf](https://github.com/junegunn/fzf).
 - The command-line for recursive searches directories [ripgrep](https://github.com/BurntSushi/ripgrep).
+- The language server [clangd](https://clangd.llvm.org/).

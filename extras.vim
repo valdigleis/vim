@@ -28,4 +28,7 @@ Plug 'junegunn/fzf.vim'
 " Plugin for LSP
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" Plugin for LSP + CoC
+Plug 'antoinemadec/coc-fzf'
+
 call plug#end()
