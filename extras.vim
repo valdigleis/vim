@@ -37,6 +37,6 @@ Plug 'antoinemadec/coc-fzf'
 call plug#end()
 
 " Installation of coc extensions
-let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-java', 'coc-tsserver', 'coc-phpls']
+let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-java', 'coc-tsserver', 'coc-texlab', 'coc-phpls']
 
 
