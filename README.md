@@ -12,6 +12,8 @@ Install on your system...
 
 ## Dependencies (Softwares) 📦
 
+For this configuration to work correctly, in addition to the language servers mentioned in the previous section, you must have the following software in your system's PATH.
+
 - The version control system [Git](https://git-scm.com/downloads).
 - The software [bat](https://github.com/sharkdp/bat).
 - The command-line fuzzy finder [fzf](https://github.com/junegunn/fzf).
