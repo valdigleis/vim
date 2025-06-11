@@ -7,7 +7,10 @@
 call plug#begin()
 
 " Color theme for sintax highlight
-Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+" Plug 'catppuccin/vim', { 'as': 'catppuccin' }
+
+" Color theme for sintax highlight
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 " Color theme for status bar
 Plug 'gkeep/iceberg-dark'
@@ -34,6 +37,6 @@ Plug 'antoinemadec/coc-fzf'
 call plug#end()
 
 " Installation of coc extensions
-let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-java', 'coc-tsserver']
+let g:coc_global_extensions = ['coc-css', 'coc-html', 'coc-java', 'coc-tsserver', 'coc-phpls']
 
 

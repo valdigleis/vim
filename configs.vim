@@ -8,8 +8,13 @@
 " -------------------------------------------------------------------------------------------------
 " Catppuccin color theme (options: Mocha, Macchiato, Frappé e Latte)
 " -------------------------------------------------------------------------------------------------
-colorscheme catppuccin_frappe
+" colorscheme catppuccin_frappe
 
+
+" -------------------------------------------------------------------------------------------------
+" Dracula color theme
+" -------------------------------------------------------------------------------------------------
+colorscheme  dracula
 
 " -------------------------------------------------------------------------------------------------
 " Lightline
@@ -17,8 +22,8 @@ colorscheme catppuccin_frappe
 set laststatus=2
 
 let g:lightline = {
-      \ 'colorscheme': 'catppuccin_mocha',
-      \ 'separator': {'left': "", 'right': ''},
+      \ 'colorscheme': 'dracula',
+      \ 'separator': {'left': "", 'right': ""},
       \ 'active': {
       \     'left' : [ ['mode', 'paste'], ['readonly', 'filename'], ['gitbranch'] ],
       \     'right': [ ['clock'], [ 'lineinfo', 'percent' ], ['fileformat', 'fileencoding', 'filetype'], ['status'] ]
@@ -64,7 +69,6 @@ function! StatusDiagnostic() abort
   endif
 endfunction
 
-
 " -------------------------------------------------------------------------------------------------
 " CoC configs
 " -------------------------------------------------------------------------------------------------
@@ -99,3 +103,7 @@ function! ShowDocumentation()
     call feedkeys('K', 'in')
   endif
 endfunction
+
+" Highlight the symbol and its references when holding the cursor
+autocmd CursorHold * silent call CocActionAsync('highlight')
+

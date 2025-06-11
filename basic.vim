@@ -74,7 +74,7 @@ set tabstop=2
 set shiftwidth=2
 
 " Enable 24 bits color support
-"set termguicolors
+set termguicolors
 
 " Desactive show mode
 set noshowmode
@@ -102,3 +102,6 @@ let &t_EI = "\e[2 q"
 
 " Default options to FZF
 let $FZF_DEFAULT_OPTS="--style full --preview 'fzf-preview.sh {}' --bind 'focus:transform-header:file --brief {}' --layout=reverse --info=inline --height=100%"
+
+" Set folds open, in start
+set foldlevelstart=99
