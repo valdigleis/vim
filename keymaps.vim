@@ -40,7 +40,7 @@ nnoremap <silent> <leader>fb :Buffers<CR>
 nnoremap <silent> <leader>ff :GFiles<CR>
 nnoremap <silent> <leader>fF :Files ./<CR>
 nnoremap <silent> <leader>fg :GFiles?<CR>
-nnoremap <silent> <leader>fk <plug>(fzf-maps-n)<CR>
+nnoremap <silent> <leader>fk <Plug>(fzf-maps-n)<CR>
 
 
 

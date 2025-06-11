@@ -19,7 +19,6 @@ For this configuration to work correctly, in addition to the language servers me
 - The command-line fuzzy finder [fzf](https://github.com/junegunn/fzf).
 - The command-line for recursive searches directories [ripgrep](https://github.com/BurntSushi/ripgrep).
 - The package manager [npm](https://www.npmjs.com/) used to install plugins of [coc](https://github.com/neoclide/coc.nvim).
-- The package manager [cargo](https://doc.rust-lang.org/stable/cargo/) used to install plugin [vim-clap](https://liuchengxu.github.io/vim-clap).
 
 ## Languages support 📜
 
