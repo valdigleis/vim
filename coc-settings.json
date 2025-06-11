@@ -27,6 +27,12 @@
         }
       }
     },
+    "lua": {
+      "command": "lua-language-server",
+      "args": ["--locale=pt-br"],
+      "rootPatterns": [".git"],
+      "filetypes": ["lua"]
+    },
     "ocaml": {
       "command": "ocamllsp",
       "args": ["--stdio"],

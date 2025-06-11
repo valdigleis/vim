@@ -20,13 +20,14 @@ For this configuration to work correctly, in addition to the language servers me
 - The command-line for recursive searches directories [ripgrep](https://github.com/BurntSushi/ripgrep).
 - The package manager [npm](https://www.npmjs.com/) used to install plugins of [coc](https://github.com/neoclide/coc.nvim).
 
-## Languages support. 📜
+## Languages support 📜
 
 This configuration provides support for the following listed languages:
 
 - Bash using the [Bash Language Server](https://github.com/bash-lsp/bash-language-server), minimal version **5.4.3**.
 - C and C++ using the language server [clangd](https://clangd.llvm.org/), minimal version **13.3.0**.
 - Haskell using the language server [HLS](https://github.com/haskell/haskell-language-server), minimal version **9.10.1**, the formatter for Haskell is [ormolu](https://github.com/tweag/ormolu) minimal version **0.7.4.0** and the command-line tool for analysing Haskell projects is [stan](https://github.com/kowainik/stan) minimal version **0.2.1.0**.
+- Lua using the language server [LuaLS](https://github.com/LuaLS/lua-language-server), minimal version **3.13.9**.
 - OCaml using the language server [ocamllsp](https://github.com/ocaml/ocaml-lsp), minimal version **1.20.1-4.14**.
 - Python using the language server [Pyrefly](https://pyrefly.org/), minimal version **0.19.0**.
 - Swi-prolog using the language server [lsp_server](https://github.com/jamesnvc/lsp_server), minimal version **3.11.6**.
