@@ -89,7 +89,7 @@ function! CheckBackspace() abort
 endfunction
 
 " Use <c-space> to trigger completion
-inoremap <silent><expr> <c-@> coc#refresh()
+inoremap <silent><expr> <c-Space> coc#refresh()
 
 " Define ShowDocumentation function
 function! ShowDocumentation()
