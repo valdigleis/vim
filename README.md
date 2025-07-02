@@ -19,6 +19,7 @@ For this configuration to work correctly, in addition to the language servers me
 - The command-line fuzzy finder [fzf](https://github.com/junegunn/fzf).
 - The command-line for recursive searches directories [ripgrep](https://github.com/BurntSushi/ripgrep).
 - The package manager [npm](https://www.npmjs.com/) used to install plugins of [coc](https://github.com/neoclide/coc.nvim).
+- The little development server with live reload capability [Browsersync](https://www.npmjs.com/package/browser-sync).
 
 ## Languages support 📜
 

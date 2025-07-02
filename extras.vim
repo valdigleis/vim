@@ -34,6 +34,12 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Plugin for LSP + CoC
 Plug 'antoinemadec/coc-fzf'
 
+" Plugin for color preview CSS
+Plug 'ap/vim-css-color'
+
+" Plugin for Github copilot
+" Plug 'github/copilot.vim'
+
 call plug#end()
 
 " Installation of coc extensions
