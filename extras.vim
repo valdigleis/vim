@@ -37,6 +37,9 @@ Plug 'antoinemadec/coc-fzf'
 " Plugin for color preview CSS
 Plug 'ap/vim-css-color'
 
+" Plugin for browser sync server
+Plug 'wolandark/vim-live-server'
+
 " Plugin for Github copilot
 " Plug 'github/copilot.vim'
 

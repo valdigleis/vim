@@ -112,3 +112,13 @@ nnoremap <silent> <leader>ld :CocList diagnostics<CR>
 nnoremap <silent> <leader>lD :CocList diagnostics --current-buf<CR>
 
 
+
+
+" *************************************************************************************************
+"
+" Vim-live-server
+"
+" *************************************************************************************************
+nnoremap <silent> ;ll :StartBrowserSync<CR>
+nnoremap <silent> ;lk :KillBrowserSync<CR>
+
