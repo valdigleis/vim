@@ -40,6 +40,9 @@ Plug 'ap/vim-css-color'
 " Plugin for browser sync server
 Plug 'wolandark/vim-live-server'
 
+" Plugin for use Emmet
+Plug 'mattn/emmet-vim'
+
 " Plugin for Github copilot
 " Plug 'github/copilot.vim'
 

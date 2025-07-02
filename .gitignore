@@ -2,5 +2,6 @@
 autoload/
 plugged/
 
+.netrwhist
 
 *.swp
